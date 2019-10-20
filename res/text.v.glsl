@@ -11,8 +11,10 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#version 330 core
-// Cell properties.
+#version 300 es
+precision mediump float;
+precision mediump int;
+// Cell properties
 layout (location = 0) in vec2 gridCoords;
 
 // Glyph properties.
